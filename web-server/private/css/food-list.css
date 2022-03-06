@@ -1,0 +1,102 @@
+main {
+  margin-bottom: 70px;
+  padding: 5%;
+  padding: 100px 0 12px;
+}
+
+table,
+th,
+td {
+  border: 0;
+  padding: 5px;
+}
+table {
+  border-spacing: 15px;
+  width: 100%;
+}
+@media (max-width: 767px) {
+  #content .modal.fade.in {
+    top: 5%;
+  }
+}
+
+.engine {
+  position: fixed;
+  top: 10%;
+  z-index: 10;
+  background: white;
+  width: 100vw;
+  border-bottom: 1px solid rgba(0,0,0,.125);
+
+}
+
+.search-engine {
+  /* position: -webkit-sticky;
+  position: sticky;
+  top: 0; */
+  padding: 15px 12px 0;
+}
+
+.search-bar {
+  height: 4em;
+}
+
+.search-bar:focus {
+  outline: none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.sort-btn {
+  /* margin-top: 0.5em; */
+  font-size: 0.9em;
+  padding: 4px;
+  /* border-radius: 10px; */
+}
+
+.sort-engine {
+  padding: 0 12px 0;
+  display: flex;
+  justify-content: space-between;
+  color: #488747;
+  height: 50px;
+}
+
+.btn:hover{
+  border-bottom: 3px solid #488747;
+  color: #488747;
+}
+
+.search-engine > .btn {
+  border-radius: 0.25rem;
+}
+
+.sort-engine > .btn {
+  border-radius: 0;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 90px; /* Place the button at the bottom of the page */
+  right: 12px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #6c757d; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 10px; /* Some padding */
+  border-radius: 30px; /* Rounded corners */
+  height: 50px;
+  width: 50px;
+  filter: drop-shadow(2px 2px 6px #000000);
+}
+
+#food-container {
+  position: relative;
+  top: 110px;
+  padding: 1rem 12px 80px;
+}

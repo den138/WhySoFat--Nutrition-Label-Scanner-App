@@ -1,0 +1,174 @@
+main {
+  padding-top: 80px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#carbs {
+  background-color: yellow;
+  height: 15px;
+}
+
+#sugars {
+  background-color: red;
+  height: 15px;
+}
+
+#protein {
+  background-color: blue;
+  height: 15px;
+}
+
+h2 {
+  text-align: center;
+}
+
+#intake-display {
+  background-color: #488747;
+  position: fixed;
+  top: 10%;
+  width: 100vw;
+  z-index: 1;
+}
+
+#first-row {
+  display: flex;
+  justify-content: center;
+  padding: 0 12px;
+}
+
+#kcal-display {
+  position: relative;
+  top: -40px;
+  width: 600px;
+  height: 205px;
+  user-select: none;
+}
+
+#kcal-display div div {
+  position: unset !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+#kcal-display canvas {
+  width: unset !important;
+  height: unset !important;
+  display: block !important;
+  max-width: 375px !important;
+  max-height: 350px !important;
+  left: unset !important;
+}
+
+#second-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #fff;
+  padding: 0 12px;
+}
+
+#second-row div {
+  text-align: center;
+}
+
+#third-row {
+  z-index: 1;
+  position: fixed;
+  width: 100vw;
+  top: 375px;
+}
+
+#separator {
+  display: flex;
+  justify-content: center;
+  height: 30vh;
+  width: 100vw;
+  top: 20vh;
+  z-index: 0;
+  position: relative;
+  background-color: #488747;
+}
+
+#profile-container {
+  padding: 20px 12px 100px;
+  position: relative;
+  top: 110px;
+  border-radius: 50px 50px 0 0;
+  background: white;
+  z-index: 2;
+}
+
+.date-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+#name-container {
+  flex: 1;
+}
+
+.more {
+  display: none;
+}
+
+.food-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.food-info {
+  width: 13ch;
+}
+
+table {
+  font-size: 100%;
+  width: 100%;
+  border: 0;
+  padding: 5px;
+}
+
+#today-container {
+  margin-bottom: 20%;
+}
+
+.progress {
+  position: relative;
+}
+
+.progress-bar {
+  position: relative;
+}
+
+span {
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  color: black;
+}
+
+.food-list-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5em;
+}
+
+.food-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.form-food-name {
+  width: 5ch;
+}
+
+.form-food-name {
+  width: 65%;
+  text-align: center;
+}

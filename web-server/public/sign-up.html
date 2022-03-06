@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/loginPage.css" />
+  </head>
+  <body>
+    <div class="wrapper fadeIn">
+      <div id="formContent">
+        <!-- Tabs Titles -->
+        <h2 class="inactive underlineHover" onclick="redirectLoginIn()">
+          LOGIN
+        </h2>
+        <h2 class="active">Sign Up</h2>
+
+        <!-- Login Form -->
+        <form id="signUpForm">
+          <input
+            type="text"
+            class="fadeIn second"
+            name="username"
+            placeholder="Username"
+          />
+          <input
+            type="password"
+            id="password"
+            class="fadeIn third"
+            name="password"
+            placeholder="Password"
+          />
+
+          <select name="gender" id="dropbtn">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+
+          <input
+            type="text"
+            id="height"
+            class="fadeIn third"
+            id="height"
+            placeholder="Height (cm) "
+          />
+
+          <input
+            type="text"
+            id="weight"
+            class="fadeIn third"
+            name="weight"
+            placeholder="Weight (kg) "
+          />
+          <input
+            type="text"
+            class="fadeIn second"
+            name="energyIntake"
+            placeholder="Energy intake (kcal)"
+          />
+          <input type="submit" class="fadeIn fourth" value="Register" />
+          <div class="reminder"></div>
+        </form>
+      </div>
+    </div>
+    <script src="./js/signUp.js"></script>
+  </body>
+</html>

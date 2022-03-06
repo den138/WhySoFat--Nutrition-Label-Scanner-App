@@ -1,0 +1,23 @@
+main {
+  margin-bottom: 90px;
+  padding: 5%;
+  padding: 100px 12px 12px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#upload-btn, #next-btn {
+  position: absolute;
+  bottom: 13vh;
+  right: 12px;
+}
+
+#back-btn {
+  position: absolute;
+  bottom: 13vh;
+  left: 12px;
+}

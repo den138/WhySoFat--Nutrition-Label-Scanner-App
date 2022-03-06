@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/loginPage.css" />
+        <link rel="manifest" href="./manifest.json">
+        <link rel="apple-touch-icon" sizes="256x256" href="icon.png">
+    </head>
+    <body>
+        <div class="wrapper fadeIn">
+            <div id="formContent">
+                <!-- Tabs Titles -->
+                <h2 class="active">Login</h2>
+                <h2 class="inactive underlineHover" onclick="redirectSignUp()">
+                    Sign Up
+                </h2>
+
+                <!-- Login Form -->
+                <form id="loginForm">
+                    <input
+                        type="text"
+                        id="username"
+                        class="fadeIn second"
+                        name="username"
+                        placeholder="Username"
+                    />
+                    <input
+                        type="password"
+                        id="password"
+                        class="fadeIn third"
+                        name="login"
+                        placeholder="Password"
+                    />
+                    <input type="submit" class="fadeIn fourth" value="Log In" />
+                    <div class="reminder"></div>
+                </form>
+            </div>
+        </div>
+        <script src="./js/loginPage.js"></script>
+    </body>
+</html>
